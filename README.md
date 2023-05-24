@@ -10,7 +10,8 @@
 
 ### 1. Ini adalah tampilan Join Now Untuk Login Ke R E N D R A G Y M
 
-![2023-05-24 (1)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/30fe852d-db0f-48c1-a5f9-124c9884573a)
+![2023-05-24 (3)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/500d1512-8733-40d7-8409-422516b3c5bf)
+
 
 ### Dibawah ini adalah Source Code dari hasil diatas
 
