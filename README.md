@@ -12,7 +12,7 @@
 
 ![2023-05-24 (1)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/30fe852d-db0f-48c1-a5f9-124c9884573a)
 
-Dan dibawah ini adalah Source Code dari hasil diatas
+### Dibawah ini adalah Source Code dari hasil diatas
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -73,12 +73,145 @@ Dan dibawah ini adalah Source Code dari hasil diatas
         android:background="@drawable/button_shape"
         android:textSize="14dp"
         android:fontFamily="@font/inter"
-        android:id="@+id/img1"
-
-
-        />
-
+        android:id="@+id/img1"/>
 
 </RelativeLayout>
 
 
+### 2. Ini adalah tampilan Login pada aplikasi R E N D R A G Y M
+
+![2023-05-24 (2)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/eceb394a-3379-4326-9610-462779597777)
+
+### Dibawah ini adalah Source Code dari tampilan Login
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-28dp"
+        android:src="@drawable/union"
+        android:id="@+id/union"/>
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/vector"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!"
+        android:fontFamily="@font/interbold"
+        android:textColor="@color/primaryColor"
+        android:textSize="30dp"
+        android:layout_below="@id/vector"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/welcome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Usernam & Password"
+        android:fontFamily="@font/intersemibold"
+        android:textColor="@color/textcolor"
+        android:textSize="15dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/enteryour"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:fontFamily="@font/interreguler"
+        android:textColor="@color/intercolor"
+        android:textSize="30dp"
+        android:layout_below="@id/enteryour"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/username"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:background="@drawable/line1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/line1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/interreguler"
+        android:textColor="@color/intercolor"
+        android:textSize="30dp"
+        android:layout_below="@+id/line1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/password"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:background="@drawable/line1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/lne2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lne2"
+        android:width="300dp"
+        android:text="Login"
+        android:textColor="@color/secondaryColor"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textSize="25dp"
+        android:fontFamily="@font/inter"
+        android:layout_marginTop="100dp"
+        android:id="@+id/login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgotten Password?"
+        android:fontFamily="@font/interreguler"
+        android:textColor="@color/intercolor"
+        android:textSize="20dp"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/forgot"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Create New Account"
+        android:fontFamily="@font/interreguler"
+        android:textColor="@color/intercolor"
+        android:textSize="20dp"
+        android:layout_below="@+id/forgot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/create"/>
+
+</RelativeLayout>
