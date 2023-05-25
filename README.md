@@ -13,7 +13,7 @@
 ![2023-05-24 (3)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/500d1512-8733-40d7-8409-422516b3c5bf)
 
 
-### Dibawah ini adalah Source Code dari hasil diatas
+- Dibawah ini adalah Source Code dari hasil diatas
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -83,7 +83,7 @@
 
 ![2023-05-24 (2)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/eceb394a-3379-4326-9610-462779597777)
 
-### Dibawah ini adalah Source Code dari tampilan Login
+- Dibawah ini adalah Source Code dari tampilan Login
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -221,7 +221,7 @@
 
 ![2023-05-25 (4)](https://github.com/AnggunRendra10/TugasPemrogramanMobile/assets/101658076/ef2ccb6b-8969-4bb7-a6c3-6982ca2a9217)
 
-### Dibawah ini adalah Source Code dari tampilan Register
+- Dibawah ini adalah Source Code dari tampilan Register
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
